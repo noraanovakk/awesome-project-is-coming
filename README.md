@@ -1,1 +1,0 @@
-# awesome-project-is-coming
