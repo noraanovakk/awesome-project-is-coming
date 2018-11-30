@@ -1,10 +1,15 @@
 body{
     background-color: #2a2a3c;
-    padding: 15px;
-    width: 1140px;
     font-family: 'Cinzel Decorative', cursive;
-    
 }
+.container{
+padding: 15px;
+width: 1140px;
+align-content: center;
+position: relative;
+margin: 0 auto;
+}
+
 nav{
     text-align: center;
     font-size: 2rem;
@@ -13,4 +18,43 @@ nav a{
     color: #f2f2f2;
     text-decoration: none;
     
+}
+
+
+.myCharacters_title{
+    text-align: center;
+    color: white;
+}
+.myCharacters{
+   /* display: flex;*/
+}
+
+.main_myCharacters{
+    background-color: white;
+    padding: 10px;
+    width: 14%;
+    float: left;
+    margin: 5px 5px;
+    text-align: center;
+ 
+}
+
+.myGallery_title{
+    text-align: center;
+    color: white;
+}
+
+.main_myAllCharacters{
+    width: 275px;
+    float: left;
+    margin: 5px 5px;
+    text-align: center;
+  /*  display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center; */
+}
+
+.main_myAllCharacters img{
+    overflow: hidden;
 }
