@@ -1,0 +1,89 @@
+body{
+    background-color: #2a2a3c;
+    font-family: 'Cinzel Decorative', cursive; 
+    color: #f2f2f2; 
+}
+header{
+    padding: 15px;
+    width: 1140px;
+    margin: 0 auto;
+}
+main{
+    padding: 15px;
+    width: 1140px;
+}
+nav{
+    display: fixed;
+    font-size: 2rem;
+    /*margin: 0 auto;*/
+    width: 100%; 
+    border: #47476b solid 1px;
+    text-align: center;
+    border-radius: 10px;
+}
+nav a{
+  color: #f2f2f2; 
+    text-decoration: none;
+    margin: 0 auto;
+    width: 80%; 
+    text-align: center;
+    margin: 2rem;
+}
+nav a:hover{
+    transition-duration: .6s;
+    color:#47476b;
+    box-shadow: 5px 5px 50px #f2f2f2;
+    border-radius: 10px;
+    background-color: #a3a3c2;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    width: 1140px;
+    margin: 0 auto;
+    left: 20%;
+}
+.footer__content{
+    width: 100%;
+    text-align: center;
+}
+div{
+  border: #47476b solid 1px;
+  border-radius: 10px;
+}
+
+/* Dani */
+
+.dropbtn {
+    color: white;
+    font-size: 2rem;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2a2a3c;
+    min-width: 232px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #white;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #white;}
