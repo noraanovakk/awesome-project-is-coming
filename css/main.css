@@ -3,21 +3,37 @@ body{
     font-family: 'Cinzel Decorative', cursive; 
     color: #f2f2f2; 
 }
-header{
-    padding: 15px;
+.container{
     width: 1140px;
+    padding: 15px;
+    position: relative;
     margin: 0 auto;
+    border: 0;
+}
+header{
+    margin: 0 auto;
+    /*   width: 1140px;
+    padding: 15px;*/
+    position: relative;
+  
 }
 main{
-    padding: 15px;
+    position: relative;
+    padding: 2rem 0;
+}
+.img-map{
     width: 1140px;
+    border-radius: 10px;
+}
+.img-map-div{
+    border: 0;
 }
 nav{
     display: fixed;
     font-size: 2rem;
     /*margin: 0 auto;*/
     width: 100%; 
-    border: #47476b solid 1px;
+    border: #47476b solid 3px;
     text-align: center;
     border-radius: 10px;
 }
@@ -37,29 +53,25 @@ nav a:hover{
     background-color: #a3a3c2;
 }
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
-    padding: 15px;
-    width: 1140px;
+    /*padding: 15px;
+    width: 1140px;*/
     margin: 0 auto;
-    left: 20%;
 }
 .footer__content{
     width: 100%;
     text-align: center;
 }
 div{
-  border: #47476b solid 1px;
+  border: #47476b solid 3px;
   border-radius: 10px;
-<<<<<<< HEAD
-}
-=======
 }
 
 /* Dani */
 
 .dropbtn {
-    color: white;
+    color: #f2f2f2;
     font-size: 2rem;
     border: none;
 }
@@ -79,15 +91,46 @@ div{
 }
 
 .dropdown-content a {
-    color: white;
+    color: #a3a3c2;
     font-size: 1.5rem;
     text-decoration: none;
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #white;}
+.dropdown-content a:hover {
+    background-color: #a3a3c2;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
-.dropdown:hover .dropbtn {background-color: #white;}
->>>>>>> origin/feature_Dani
+.dropdown:hover .dropbtn {
+    background-color: #a3a3c2;
+}
+#alive{
+    display: inline-block;
+    margin: 0;
+    padding: 5px;
+     width:45%;
+     position: relative;
+     top: 0;
+     border: 0;
+     
+}
+#dead{
+    display: inline-block;
+    margin: 0;
+    padding: 5px;
+    width:45%;
+    position: relative;
+    vertical-align: top;
+    border: 0;
+    
+}
+.main__div__alive-dead{
+    text-align: center;
+    margin: 0 auto;
+    border: 0;
+    box-shadow: 2px 2px 20px #a3a3c2
+}

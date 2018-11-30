@@ -6,10 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/main.css">
-  <title>Cím</title>
+  <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet"> 
+  <title>Élők és Holtak</title>
 </head>
 
 <body onload="elohalott()">
+  <div class="container">
   <header>
     <nav>
       <a href="characters.html">Karakterek</a>
@@ -26,15 +28,19 @@
     </nav>
   </header>
   <main>
-  
-        <div id="alive" style="display: inline-block; margin: 0; padding: 0; width:45%; position: relative; top: 0"></div>
-        <div id="dead" style="display: inline-block; margin: 0; padding: 0; width:45%; position: relative; top: 0"></div>
-
+    <div class="main__div__alive-dead">
+        <div id="alive"></div>
+        <div id="dead"></div>
+    </div>
   </main>
   <footer>
-       
+    <div class="footer__content">
+      <p>Awesome Project is coming</p>
+      <p>&#169; 2018</p>
+    </div>
   </footer>
   <script src="js/elohalott.js"></script>
+  </div>
 </body>
 
 </html>

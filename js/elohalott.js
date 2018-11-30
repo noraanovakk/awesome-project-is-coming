@@ -354,7 +354,7 @@ function elohalott() {
     var deadArr = [];
     var aliveArr = [];
 
-        aliveSrt = aliveSrt + '<font size="6">Élők</font>' + "<br>";
+        aliveSrt = aliveSrt + '<font size="6">Élnek</font>' + "<br>";
         deadSrt = deadSrt + '<font size="6">Halottak</font>' + "<br>";
         for (var i = 0; i < gameOfThronesCharacters.length; i++) {
             if (gameOfThronesCharacters[i].hasOwnProperty('dead')) {
@@ -383,7 +383,7 @@ function elohalott() {
         sortAlive.shift()
         sortAlive.sort()
         sortAlive = sortAlive.join("<br>")
-        sortAlive = '<font size="6">Élők</font>' + sortAlive + '<br>' + '<font size="5">összesen: ' + numAlive + '</font>'
+        sortAlive = '<font size="6">Élnek</font>' + sortAlive + '<br>' + '<font size="5">összesen: ' + numAlive + '</font>'
 
         aliveSrt = aliveSrt + '<font size="5">összesen: ' + numAlive + '</font>';
         deadSrt = deadSrt + '<font size="5">összesen: ' + numDead + '</font>';
