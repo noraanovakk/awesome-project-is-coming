@@ -2,6 +2,12 @@ function characters() {
   var characerTablesElement = document.querySelector('#character');
   var tableRow;
   for ( var i = 0; i < gameOfThronesCharacters.length; i += 1) {
+    var house;
+    if (gameOfThronesCharacters[i].house) {
+      house = gameOfThronesCharacters[i].house;
+    } else {
+      house = '';
+    }
     tableRow += `<tr>
                   <td>${gameOfThronesCharacters[i].name}</td>
                   <td><img src="${gameOfThronesCharacters[i].portrait}" alt="portrait"></td>
@@ -14,4 +20,5 @@ function characters() {
   }
   characerTablesElement.innerHTML = tableRow;
 }
+
 characters();
