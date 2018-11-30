@@ -1,0 +1,16 @@
+body{
+    background-color: #2a2a3c;
+    padding: 15px;
+    width: 1140px;
+    font-family: 'Cinzel Decorative', cursive;
+    
+}
+nav{
+    text-align: center;
+    font-size: 2rem;
+}
+nav a{
+    color: #f2f2f2;
+    text-decoration: none;
+    
+}
