@@ -1,6 +1,7 @@
 body{
     background-color: #2a2a3c;
-    font-family: 'Cinzel Decorative', cursive;  
+    font-family: 'Cinzel Decorative', cursive; 
+    color: #f2f2f2; 
 }
 header{
     padding: 15px;
@@ -14,14 +15,14 @@ main{
 nav{
     display: fixed;
     font-size: 2rem;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     width: 100%; 
     border: #47476b solid 1px;
     text-align: center;
-    
+    border-radius: 10px;
 }
 nav a{
-    color: #f2f2f2;
+  color: #f2f2f2; 
     text-decoration: none;
     margin: 0 auto;
     width: 80%; 
@@ -38,14 +39,16 @@ nav a:hover{
 footer {
     position: absolute;
     bottom: 0;
-    color: #f2f2f2;
-    width: 70%;
-    margin: 0 auto;
     padding: 15px;
     width: 1140px;
+    margin: 0 auto;
+    left: 20%;
 }
 .footer__content{
-    width: 70%;
-    margin: 0 auto;
+    width: 100%;
     text-align: center;
+}
+div{
+  border: #47476b solid 1px;
+  border-radius: 10px;
 }
