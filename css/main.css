@@ -45,16 +45,17 @@ nav a{
 }
 
 .main_myAllCharacters{
-    width: 275px;
     float: left;
-    margin: 5px 5px;
-    text-align: center;
-  /*  display: flex;
+    margin: 0px 3px;
+    position: relative;
+    overflow: hidden;
+    width: 22%;
+    /*  display: flex;
     flex-wrap: wrap;
     flex: 1;
     justify-content: center; */
 }
 
 .main_myAllCharacters img{
-    overflow: hidden;
+    height: 150px;
 }
