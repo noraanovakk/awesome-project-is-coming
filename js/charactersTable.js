@@ -20,23 +20,17 @@ function characters() {
     } else {
       organization = '';
     }
-    tableRow += `<tr class="tableLine">
+    tableRow += `<tr class="tableLine${i}">
                   <td>${alias}</td>
                   <td><img src="${gameOfThronesCharacters[i].portrait}" alt="portrait"></td>
                   <td>${house}</td>
                   <td>${organization}</td>
-                  <td class="tableBox">${gameOfThronesCharacters[i].bio}</td>
-                  <td><input type="button" value="törlés" onclick="deleteLine()"></td>
-                  <td><input type="button" value="módosítás" onclick="changeBio()"></td>
+                  <td class="tableBox${i}">${gameOfThronesCharacters[i].bio}</td>
+                  <td><input type="button" value="törlés" onclick="document.querySelector('.tableLine${i}').style.display = 'none'"></td>
+                  <td><input type="button" value="módosítás" onclick="document.querySelector('.tableBox${i}').contentEditable = true"></td>
                 </tr>`;
   }
 
   characerTablesElement.innerHTML = tableRow;
-}
-function deleteLine() {
-  document.querySelector('.tableLine').style.display = 'none';
-}
-function changeBio() {
-  document.querySelector('.tableBox').contentEditable = true;
 }
 characters();
