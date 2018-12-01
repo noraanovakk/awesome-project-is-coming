@@ -6,11 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
   <title>Házak</title>
 </head>
 
 <body onload="hazak()">
-  <header>
+  <div class="container">
     <nav>
       <a href="characters.html">Karakterek</a>
       <div style="border: none" class="dropdown">
@@ -24,17 +25,27 @@
       <a href="portraits.html">Portrék</a>
       <a href="gallery.html">Galéria</a>
     </nav>
-  </header>
+    <header>
+      <div class="header__div__img">
+        <img class="header__div__img-img" src="img/header.png" alt="header-img">
+      </div>
+    </header>
   <main>
-  <h1 style="text-align:center">Házak</h1>
-  <table id="houses-table">
+    <div class="main__div__hazak">
+      <h1 style="text-align:center">Házak</h1>
+      <table id="houses-table">
 
-  </table>
+      </table>
+    </div>
   </main>
   <footer>
-       
+    <div class="footer__content">
+      <p>Awesome Project is coming</p>
+      <p>&#169; 2018</p>
+    </div>    
   </footer>
   <script src="js/hazak.js"></script>
+  </div>
 </body>
 
 </html>

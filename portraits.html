@@ -11,13 +11,24 @@
 </head>
 
 <body>
-  <header>
+  <div class="container">
     <nav>
       <a href="characters.html">Karakterek</a>
-      <a href="statistics.html">Statisztika</a>
+      <div style="border: none" class="dropdown">
+          <a class="dropbtn">Statisztika</a>
+          <div class="dropdown-content">
+            <a target="_blank" href="elohalott.html">Élők/Halottak</a>
+            <a target="_blank" href="hazak.html">Házak</a>
+            <a target="_blank" href="szervezetek.html">Szervezetek</a>
+          </div>
+        </div>
       <a href="index.html">Start</a>
       <a href="gallery.html">Galéria</a>
     </nav>
+    <header>
+      <div class="header__div__img">
+        <img class="header__div__img-img" src="img/header.png" alt="header-img">
+        </div>
   </header>
   <main>
 
@@ -32,6 +43,7 @@
   </footer>
   <script src="./js/characters.js"></script>
     <!-- Innen jössz te :) -->
+    </div>
 </body>
 
 </html>

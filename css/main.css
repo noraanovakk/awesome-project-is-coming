@@ -12,10 +12,14 @@ body{
 }
 header{
     margin: 0 auto;
-    /*   width: 1140px;
-    padding: 15px;*/
     position: relative;
-  
+}
+.header__div__img-img{
+    width: 1140px;
+    border-radius: 10px;
+}
+.header__div__img{
+    border: 0;
 }
 main{
     position: relative;
@@ -31,7 +35,7 @@ main{
 nav{
     display: fixed;
     font-size: 2rem;
-    /*margin: 0 auto;*/
+    margin: 0 auto;
     width: 100%; 
     border: #47476b solid 3px;
     text-align: center;
@@ -132,5 +136,36 @@ div{
     text-align: center;
     margin: 0 auto;
     border: 0;
-    box-shadow: 2px 2px 20px #a3a3c2
+    box-shadow: 2px 2px 20px #a3a3c2;
+}
+.main__div__szervezetek{
+    text-align: center;
+    margin: 0 auto;
+    border: 0;
+    box-shadow: 2px 2px 20px #a3a3c2;
+}
+.main__div__hazak{
+    text-align: center;
+    margin: 0 auto;
+    border: 0;
+    box-shadow: 2px 2px 20px #a3a3c2;
+}
+.main__div__hazak__td{
+    margin: 30px;
+    padding: 40px;
+    text-align: left;
+}
+#houses-table{
+    margin: 0 auto;
+}
+.main__div__hazak h1{
+    margin: 15px;
+    padding: 30px;
+}
+.main__div__szervezetek__td{
+    margin: 20px;
+    padding: 20px;
+}
+#organizations-table{
+    margin: 0 auto;
 }

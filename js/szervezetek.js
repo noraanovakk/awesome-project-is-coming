@@ -371,7 +371,7 @@ function szervezetek() {
   }
 
   for (var i = 0; i < orgsMinusDuplicates.length; i++) {
-    tableRow += "<tr><td><img src='/img/houses/" + orgsMinusDuplicates[i] + ".png'></td><td>" + orgsMinusDuplicates[i].toUpperCase() + "</td><td>" + members[i].length + " karakter tartozik ide" + "</td></tr>";
+    tableRow += "<tr><td class=\"main__div__szervezetek__td\"><img src='/img/houses/" + orgsMinusDuplicates[i] + ".png'></td><td class=\"main__div__szervezetek__td\">" + orgsMinusDuplicates[i].toUpperCase() + "</td><td class=\"main__div__szervezetek__td\">" + members[i].length + " karakter tartozik ide" + "</td></tr>";
   }
 
   orgsTableElement.innerHTML = tableRow;

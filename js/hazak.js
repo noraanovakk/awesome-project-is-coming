@@ -371,7 +371,7 @@ function hazak() {
   }
 
   for (var i = 0; i < housesMinusDuplicates.length; i++) {
-    tableRow += "<tr><td><img src='/img/houses/" + housesMinusDuplicates[i] + ".png'></td><td>" + housesMinusDuplicates[i].toUpperCase() + "</td><td>" + members[i].length + " karakter tartozik ide" + "</td></tr>";
+    tableRow += "<tr><td class=\"main__div__hazak__td\"><img src='/img/houses/" + housesMinusDuplicates[i] + ".png'></td><td>" + housesMinusDuplicates[i].toUpperCase() + "</td><td class=\"main__div__hazak__td\">" + members[i].length + " karakter tartozik ide" + "</td></tr>";
   }
 
   housesTableElement.innerHTML = tableRow;
