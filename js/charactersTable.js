@@ -1,6 +1,6 @@
 function characters() {
   var characerTablesElement = document.querySelector('#character');
-  var tableRow;
+  var tableRow = '';
   for ( var i = 0; i < gameOfThronesCharacters.length; i += 1) {
     var alias;
     if (gameOfThronesCharacters[i].alias) {
@@ -10,7 +10,7 @@ function characters() {
     }
     var house;
     if (gameOfThronesCharacters[i].house) {
-      house = (`<img src="/img/houses/${gameOfThronesCharacters[i].house}.png" alt="housePicture"> ${gameOfThronesCharacters[i].house}`);
+      house = (`<img src="/img/houses/${gameOfThronesCharacters[i].house}.png" alt="housePicture"><br> ${gameOfThronesCharacters[i].house}`);
     } else {
       house = '';
     }
