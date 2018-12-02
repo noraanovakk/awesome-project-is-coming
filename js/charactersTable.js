@@ -26,8 +26,8 @@ function characters() {
                   <td class="main__characters__table__td">${house}</td>
                   <td class="main__characters__table__td">${organization}</td>
                   <td class="tableBox${i}" class="main__characters__table__td">${gameOfThronesCharacters[i].bio}</td>
-                  <td class="main__characters__table__td"><input type="button" value="törlés" onclick="document.querySelector('.tableLine${i}').style.display = 'none'"></td>
-                  <td class="main__characters__table__td"><input type="button" value="módosítás" onclick="document.querySelector('.tableBox${i}').contentEditable = true"></td>
+                  <td class="main__characters__table__td" class="characters__td__button"><input type="button" value="törlés" class="characters__input__button" onclick="document.querySelector('.tableLine${i}').style.display = 'none'"></td>
+                  <td class="main__characters__table__td" class="characters__td__button"><input type="button" value="módosítás" class="characters__input__button" onclick="document.querySelector('.tableBox${i}').contentEditable = true"></td>
                 </tr>`;
   }
 

@@ -252,3 +252,16 @@ div{
 .main__characters__table__td__bio{
     letter-spacing: 10px;
 }
+
+.characters__input__button{
+    color: #f2f2f2;
+    background-color: #47476b;
+    border: #f2f2f2 solid .5px;
+    border-radius: 5px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.characters__input__button:hover{
+    background-color: #f2f2f2;
+    color: #47476b;
+    transition-duration: .6s;
+}
