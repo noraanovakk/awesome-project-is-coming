@@ -1,78 +1,90 @@
 body{
     background-color: #2a2a3c;
-    font-family: 'Cinzel Decorative', cursive; 
     color: #f2f2f2; 
+    font-family: 'Cinzel Decorative', cursive; 
 }
+
 .container{
-    width: 1140px;
+    border: 0;
+    margin: 0 auto;
     padding: 15px;
     position: relative;
-    margin: 0 auto;
-    border: 0;
+    width: 1140px;
 }
+
 header{
     margin: 0 auto;
     position: relative;
 }
+
 .header__div__img-img{
-    width: 1140px;
     border-radius: 10px;
+    width: 1140px;
 }
+
 .header__div__img{
     border: 0;
 }
+
 main{
-    position: relative;
     padding: 2rem 0;
+    position: relative;
 }
+
 .img-map{
-    width: 1140px;
     border-radius: 10px;
+    width: 1140px;
 }
+
 .img-map-div{
     border: 0;
 }
+
 .container{
-padding: 15px;
-width: 1140px;
-align-content: center;
-position: relative;
-margin: 0 auto;
+    align-content: center;
+    margin: 0 auto;
+    padding: 15px;
+    position: relative;
+    width: 1140px;
 }
 
 nav{
+    border: #47476b solid 3px;
+    border-radius: 10px;
     display: fixed;
     font-size: 2rem;
     margin: 0 auto;
+    text-align: center;
     width: 100%; 
-    border: #47476b solid 3px;
-    text-align: center;
-    border-radius: 10px;
 }
+
 nav a{
-  color: #f2f2f2; 
-    text-decoration: none;
-    margin: 0 auto;
-    width: 80%; 
-    text-align: center;
+    color: #f2f2f2; 
     margin: 2rem;
+    text-align: center;
+    text-decoration: none;
+    width: 80%; 
 }
+
 nav a:hover{
-    transition-duration: .6s;
-    color:#47476b;
+    background-color: #a3a3c2;
     box-shadow: 5px 5px 50px #f2f2f2;
     border-radius: 10px;
-    background-color: #a3a3c2;
+    color:#47476b;
+    transition-duration: .6s;
 }
+
 footer {
-    position: relative;
     bottom: 0;
     margin: 0 auto;
+    position: relative;
 }
+
 .footer__content{
-    width: 100%;
     text-align: center;
+    width: 100%;
 }
+
 div{
   border: #47476b solid 3px;
   border-radius: 10px;
@@ -81,30 +93,30 @@ div{
 /* Dani */
 
 .dropbtn {
+    border: none;
     color: #f2f2f2;
     font-size: 2rem;
-    border: none;
 }
 
 .dropdown {
-    position: relative;
     display: inline-block;
+    position: relative;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
     background-color: #2a2a3c;
-    min-width: 232px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: none;
+    min-width: 232px;
+    position: absolute;
     z-index: 1;
 }
 
 .dropdown-content a {
     color: #a3a3c2;
+    display: block;
     font-size: 1.5rem;
     text-decoration: none;
-    display: block;
 }
 
 .dropdown-content a:hover {
@@ -119,91 +131,96 @@ div{
     background-color: #a3a3c2;
 }
 #alive{
+    border: 0;
     display: inline-block;
     margin: 0;
     padding: 5px;
-     width:45%;
-     position: relative;
-     top: 0;
-     border: 0;
-     
+    position: relative;
+    top: 0;
+    width: 45%;
 }
+
 #dead{
+    border: 0;
     display: inline-block;
     margin: 0;
     padding: 5px;
-    width:45%;
     position: relative;
     vertical-align: top;
-    border: 0;
-    
+    width: 45%;
 }
+
 .main__div__alive-dead{
-    text-align: center;
-    margin: 0 auto;
     border: 0;
     box-shadow: 2px 2px 20px #a3a3c2;
+    margin: 0 auto;
+    text-align: center;
 }
+
 .main__div__szervezetek{
-    text-align: center;
-    margin: 0 auto;
     border: 0;
     box-shadow: 2px 2px 20px #a3a3c2;
+    margin: 0 auto;
+    text-align: center;   
 }
+
 .main__div__hazak{
-    text-align: center;
-    margin: 0 auto;
     border: 0;
     box-shadow: 2px 2px 20px #a3a3c2;
+    margin: 0 auto;
+    text-align: center;    
 }
+
 .main__div__hazak__td{
     margin: 30px;
     padding: 40px;
     text-align: left;
 }
+
 #houses-table{
     margin: 0 auto;
 }
+
 .main__div__hazak h1{
     margin: 15px;
     padding: 30px;
 }
+
 .main__div__szervezetek__td{
     margin: 20px;
     padding: 20px;
 }
+
 #organizations-table{
     margin: 0 auto;
 }
 
 .myCharacters_title{
-    text-align: center;
     color: #f2f2f2;
+    text-align: center;
 }
-
 
 .main_myCharacters{
     background-color: rgba(255, 255, 255, .2);
-    padding: 10px;
-    width: 14%;
     float: left;
     margin: 5px 5px;
-    text-align: center;
+    padding: 10px;
     position: relative;
- 
+    text-align: center;
+    width: 14%;
 }
 
 .myGallery_title{
-    text-align: center;
     color: #f2f2f2;
     font-weight: lighter;
+    text-align: center;
 }
 
 .main_myAllCharacters{
     float: left;
     margin: 0px 3px;
-    position: relative;
     overflow: hidden;
+    position: relative;
     width: 22%;
     /*display: flex;
     flex-wrap: wrap;
@@ -219,6 +236,19 @@ div{
     text-align: center;
 }
 .main__div__portraits{
-    margin: 0 auto;
     border: 0;
+    margin: 0 auto;
+}
+
+.main__characters__table__td{
+    border: #47476b solid 3px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+#character tr:nth-child(even){
+    background-color: #47476b;
+}
+.main__characters__table__td__bio{
+    letter-spacing: 10px;
 }
